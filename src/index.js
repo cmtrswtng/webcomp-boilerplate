@@ -2,6 +2,10 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+import './components/shared/editor-component.js';
+
+document.body.innerHTML = '<editor-component></editor-component>';
+
 class HelloWorld extends HTMLElement {
     constructor() {
         super();
